@@ -1,0 +1,13 @@
+using System;
+
+class RandomNumberGenerator
+{
+    static void Main()
+    {
+        Random random = new Random();
+        
+        // Генерация случайного целого числа в диапазоне от 1 до 100
+        int randomNumber = random.Next(1, 101);
+        Console.WriteLine("Случайное целое число: " + randomNumber);
+    }
+}
